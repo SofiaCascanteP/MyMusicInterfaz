@@ -31,6 +31,8 @@ namespace UI
             ApplicationConfiguration.Initialize();
             Application.Run(new Form1());
 
+            listen.Close();
+
         }
     }
 }
